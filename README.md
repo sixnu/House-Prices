@@ -1,6 +1,8 @@
 # House-Prices
 House Prices: Advanced Regression Techniques
+
 基本模型
+
 1、数据清洗：非数值数据进行one-hot编码，缺失值，少量数据缺失用众数填充，大量数据缺失用机器学习填充。
 
 2、数据转换：对y值进行log转换；变量指标对于skew大于0.75的指标进行log转换；标准化：用方差转换得分高于0-1转换。
